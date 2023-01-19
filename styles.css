@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding:24px 12vw;
+    color:white;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    display:flex;
+    gap:24px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #1f2937;
+    color: white;
+    display:flex;
+    justify-content: center;
+    gap:48px;
+    padding:20vh 15vw;
+}
+
+.img-placeholder {
+    background-color: #787b81;
+    color:white;
+    width:600px;
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left > h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight:900;
+}
+
+.left > p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.left > button {
+    margin-top: 16px;
+}
+
+button {
+    width:max-content;
+    background-color: #3882f6;
+    color:white;
+    padding: 8px 32px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    margin: 50px auto;
+}
+
+.img {
+    width:150px;
+    height:150px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+}
+
+.card {
+    width:150px;
+}
+
+.cards {
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.info {
+    padding-bottom: 100px;
+}
+
+.quote > h1 {
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+    font-weight: 100;
+}
+
+.quote > h2 {
+    text-align: right;
+    color:#1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 20vh 20vw
+}
+
+.call-to-action {
+    padding: 15vh 12vw;
+}
+
+.container {
+    background: #3882f6;
+    color: white;
+    border-radius: 7px;
+    display:flex;
+    justify-content: space-between;
+    padding: 8vh 9vw;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
+
+    background-color: #1f2937;
+    color: white;
+}
